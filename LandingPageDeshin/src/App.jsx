@@ -7,6 +7,7 @@ import Vajalpage from './assets/Component/Why';
 import Anotherpage from './assets/Component/Thardpage';
 import Another1 from './assets/Component/FothPage';
 import Another2 from './assets/Component/Lastoption';
+import Thelast from './assets/Component/Pagend';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
 
         {/* This matches localhost:5173/Lastoption */}
         <Route path="/documents" element={<Another2 />} />
+
+         {/* This matches localhost:5173/Lastoption */}
+        <Route path="/cypher" element={<Thelast />} />
         
       </Routes>
       <Finish />

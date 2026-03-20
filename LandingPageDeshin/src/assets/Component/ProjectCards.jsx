@@ -74,7 +74,9 @@ function ProjectCards() {
           <CardBody className="overflow-visible py-2">
             <Image
               alt="Project Image"
-              className="object-cover rounded-xl w-full h-[200px]"
+                            className="w-full object-cover h-[240px]"
+                            radius="lg"
+                            width="100%"
               src={item.Imagee}
             />
           </CardBody>
